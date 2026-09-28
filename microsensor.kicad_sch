@@ -4186,12 +4186,6 @@
 		(uuid "10f73f41-0e15-45f9-8320-8841a5060e33")
 	)
 	(junction
-		(at 27.94 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "13dc40e3-a028-4ef4-85ce-fc11030d51ef")
-	)
-	(junction
 		(at 40.64 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4491,16 +4485,6 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 87.63) (xy 27.94 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08ef23eb-f2ce-44c9-bc0b-73bc508e51fb")
-	)
-	(wire
-		(pts
 			(xy 49.53 166.37) (xy 49.53 168.91)
 		)
 		(stroke
@@ -4661,7 +4645,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 87.63) (xy 27.94 91.44)
+			(xy 27.94 85.09) (xy 27.94 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4771,16 +4755,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 104.14) (xy 81.28 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49c11756-410a-47d6-9051-41dacfa741ed")
-	)
-	(wire
-		(pts
 			(xy 238.76 97.79) (xy 252.73 97.79)
 		)
 		(stroke
@@ -4798,16 +4772,6 @@
 			(type default)
 		)
 		(uuid "5018ce61-a602-4929-861e-302764e03005")
-	)
-	(wire
-		(pts
-			(xy 27.94 85.09) (xy 27.94 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53fbf9aa-9671-417a-8827-244003fc3278")
 	)
 	(wire
 		(pts
@@ -4901,6 +4865,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 26.67) (xy 261.62 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64e5d642-ca1d-427a-a68a-93d3eda5206d")
+	)
+	(wire
+		(pts
 			(xy 27.94 156.21) (xy 22.86 156.21)
 		)
 		(stroke
@@ -4961,6 +4935,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 39.37) (xy 261.62 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bde83af-53a4-4642-b159-5e3c8df93067")
+	)
+	(wire
+		(pts
 			(xy 46.99 102.87) (xy 46.99 107.95)
 		)
 		(stroke
@@ -4978,6 +4962,16 @@
 			(type default)
 		)
 		(uuid "6e1131aa-a277-4ade-a9b3-deba40133729")
+	)
+	(wire
+		(pts
+			(xy 73.66 104.14) (xy 81.28 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e17d443-35be-4045-8ad9-c08b5d6f0783")
 	)
 	(wire
 		(pts
@@ -5291,6 +5285,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 41.91) (xy 254 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3b01732-bf9f-4257-afb8-1dc78305d764")
+	)
+	(wire
+		(pts
 			(xy 111.76 74.93) (xy 140.97 74.93)
 		)
 		(stroke
@@ -5458,6 +5462,16 @@
 			(type default)
 		)
 		(uuid "d6fba74e-38b3-4f79-bd2e-48940b4e1ed9")
+	)
+	(wire
+		(pts
+			(xy 254 21.59) (xy 254 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7c7d194-75aa-4433-bb3f-ab816eab1d0c")
 	)
 	(wire
 		(pts
@@ -5651,13 +5665,13 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 113.03) (xy 31.75 113.03)
+			(xy 254 33.02) (xy 261.62 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f8b581c0-efa0-4257-846d-33e691aeaa52")
+		(uuid "f7689d7f-b35c-4ede-b595-5d61f3bdf9c6")
 	)
 	(wire
 		(pts
@@ -5809,6 +5823,16 @@
 		)
 		(uuid "4de93e91-55d8-479d-b342-26ec61d9b6c2")
 	)
+	(label "TX"
+		(at 254 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5757c0e5-71ae-4f19-8339-ed6b4e55835b")
+	)
 	(label "SCL"
 		(at 26.67 44.45 0)
 		(effects
@@ -5938,6 +5962,16 @@
 			(justify left bottom)
 		)
 		(uuid "d9c71a7a-c453-4303-8cfb-0347cf99b56e")
+	)
+	(label "TX"
+		(at 73.66 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e006918f-e9c3-4244-8efb-3715d0044b6b")
 	)
 	(label "T_DRDY"
 		(at 99.06 41.91 180)
@@ -6985,7 +7019,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 77.47 104.14 90)
+		(at 261.62 33.02 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6995,28 +7029,30 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ea78206-af1f-482b-9535-601f5daac39f")
-		(property "Reference" "TP1"
-			(at 74.168 99.06 90)
+		(property "Reference" "TP3"
+			(at 266.7 31.7499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "P1.13"
-			(at 74.168 101.6 90)
+		(property "Value" "TX"
+			(at 266.7 34.2899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 77.47 99.06 0)
+			(at 261.62 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7027,7 +7063,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 99.06 0)
+			(at 261.62 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7038,7 +7074,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 77.47 104.14 0)
+			(at 261.62 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7054,7 +7090,7 @@
 		(instances
 			(project "microsensor"
 				(path "/76319a8b-2eae-42d7-bd13-1d0c887845c6"
-					(reference "TP1")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -7692,7 +7728,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 31.75 113.03 270)
+		(at 261.62 39.37 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7702,8 +7738,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "681ed9c9-4035-4ded-bb06-2f1efd4acf0a")
-		(property "Reference" "TP3"
-			(at 36.83 111.7599 90)
+		(property "Reference" "TP1"
+			(at 266.7 38.0999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7713,8 +7749,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "P1.13"
-			(at 36.83 114.2999 90)
+		(property "Value" "GND"
+			(at 266.7 40.6399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7725,7 +7761,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 31.75 118.11 0)
+			(at 261.62 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7736,7 +7772,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 118.11 0)
+			(at 261.62 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7747,7 +7783,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 31.75 113.03 0)
+			(at 261.62 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7763,7 +7799,7 @@
 		(instances
 			(project "microsensor"
 				(path "/76319a8b-2eae-42d7-bd13-1d0c887845c6"
-					(reference "TP3")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -8336,6 +8372,84 @@
 			(project "microsensor"
 				(path "/76319a8b-2eae-42d7-bd13-1d0c887845c6"
 					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 254 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94d4c95e-18b2-4029-a809-a2a3eee888ef")
+		(property "Reference" "#PWR021"
+			(at 254 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 254 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 254 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b4b86ddc-3b17-47df-a3f2-39e6c5d7ac30")
+		)
+		(instances
+			(project "microsensor"
+				(path "/76319a8b-2eae-42d7-bd13-1d0c887845c6"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -9500,7 +9614,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 22.86 87.63 90)
+		(at 261.62 26.67 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9511,27 +9625,29 @@
 		(fields_autoplaced yes)
 		(uuid "c57a095e-8f77-4430-8372-fae66d14067d")
 		(property "Reference" "TP2"
-			(at 19.558 82.55 90)
+			(at 266.7 25.3999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "P1.13"
-			(at 19.558 85.09 90)
+		(property "Value" "BAT"
+			(at 266.7 27.9399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 22.86 82.55 0)
+			(at 261.62 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9542,7 +9658,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 82.55 0)
+			(at 261.62 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9553,7 +9669,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 22.86 87.63 0)
+			(at 261.62 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10326,6 +10442,84 @@
 			(project "microsensor"
 				(path "/76319a8b-2eae-42d7-bd13-1d0c887845c6"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 254 21.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fbf949e6-b7ad-4df2-9212-37028978a49e")
+		(property "Reference" "#PWR020"
+			(at 254 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 254 16.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 254 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4b2f644d-cbc4-4d57-bcdf-58db7e5eb621")
+		)
+		(instances
+			(project "microsensor"
+				(path "/76319a8b-2eae-42d7-bd13-1d0c887845c6"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
